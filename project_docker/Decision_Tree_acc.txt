@@ -1,0 +1,16 @@
+Accuracy (Decision Tree Classifier): 87.03 %
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.93      0.92      0.93      7188
+           1       0.46      0.47      0.46       972
+
+    accuracy                           0.87      8160
+   macro avg       0.69      0.70      0.69      8160
+weighted avg       0.87      0.87      0.87      8160
+
+
+Confusion Matrix:
+ [[6648  540]
+ [ 518  454]]

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  bank_app:
+    image: final_project
+    container_name: bank_app
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./path/to/local/data:/project_docker/data
+    environment:
+      DATABASE_URL: postgres://username:password@db:5432/mydatabase
+    depends_on:
+      - db
+
+  db:
+    image: final_project:latest
+    container_name: bank_db
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:

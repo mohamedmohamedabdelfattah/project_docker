@@ -1,0 +1,16 @@
+Accuracy (Linear SVM): 88.81 %
+
+Classification Report (Linear SVM):
+               precision    recall  f1-score   support
+
+           0       0.89      0.99      0.94      7188
+           1       0.65      0.13      0.22       972
+
+    accuracy                           0.89      8160
+   macro avg       0.77      0.56      0.58      8160
+weighted avg       0.86      0.89      0.85      8160
+
+
+Confusion Matrix (Linear SVM):
+ [[7116   72]
+ [ 841  131]]

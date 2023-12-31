@@ -1,0 +1,16 @@
+Accuracy (K-Nearest Neighbor): 88.27 %
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.96      0.94      7188
+           1       0.51      0.28      0.36       972
+
+    accuracy                           0.88      8160
+   macro avg       0.71      0.62      0.65      8160
+weighted avg       0.86      0.88      0.87      8160
+
+
+Confusion Matrix:
+ [[6928  260]
+ [ 697  275]]

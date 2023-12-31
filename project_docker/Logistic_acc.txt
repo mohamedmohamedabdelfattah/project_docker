@@ -1,0 +1,17 @@
+Accuracy (Logistic Regression): 88.80 %
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94      7188
+           1       0.57      0.24      0.34       972
+
+    accuracy                           0.89      8160
+   macro avg       0.74      0.61      0.64      8160
+weighted avg       0.86      0.89      0.87      8160
+
+
+Confusion Matrix:
+ [[7013  175]
+ [ 739  233]]
+
+
